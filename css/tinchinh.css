@@ -1,0 +1,251 @@
+.anhbia{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.anhbiadau
+{
+    width: 100%;
+    z-index: 1;
+    background-size: 100%;
+}
+.black-ground{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    opacity: 0.8;
+}
+.header-banner{
+    position: relative;
+}
+menu{
+    width: 100%;
+}
+.menu ul{
+    background: #ffb628;
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 40px;
+    margin-left: -5px;
+    font-size: 30px;
+    font-family: Myriad Pro;
+
+}
+.traslate-color
+{
+    color: black;
+}
+.traslate-color:after
+{
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    content: "";
+    background-color: black;
+    transition: width 0.2s;
+}
+.traslate-color:hover{
+    color: red;
+}
+.traslate-color:hover:after{
+    width: 100%;
+}
+.search{
+    background-color: black;
+}
+.timkiem{
+    max-width: 272px;
+}
+.image1,.image2{
+    max-width: 269px;
+    max-height: 365px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+hr{
+    border: 0.5px solid ;width: 88%;
+}
+h1{
+    font-family: 'UVN Kieu';font-size: 55px;
+}
+.mien ul {
+
+    list-style-type: none;
+    text-align: center;
+}
+.mien li {
+    color: #f1f1f1;
+    display: inline-block;
+
+}
+.mien{
+
+    float: right;
+}
+.tieubieu
+{
+    background-image: url("../image/anhgiua.jpg");
+    text-align: center;
+    color: #f9c636;
+}
+.font-p1{
+    font-style: italic;
+    color: white;
+}
+.font-p{
+    font-weight: bold;
+    text-align: left;
+}
+.table1
+{
+    width: 100%;
+
+    border-spacing: 10px 30px;
+
+}
+.table1 img{
+    width: 70%;
+    height: 70%;
+}
+.td1{
+    text-align: left;
+}
+.timkiem{
+    background-color: black;
+    color: white;
+}
+.tintuc
+{
+    background-image: url(../image/anhcuoi.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.tintuc1{
+    max-width: 370px;
+}
+.tintuc h1{
+    text-align: center;
+}
+.btn-all{
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+
+.p1{
+    font-style: italic;
+}
+.h1-1{
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    color: #ff253a;
+    margin-left: -7%;
+}
+.img1{
+    width: 100%;
+}
+.btn1{
+    background-color:#4a67b8;
+    color: white;
+}
+.table2{
+    max-width: 272px;
+    background-color: black;
+    color: white;
+}
+.table2 a{
+    text-transform: uppercase;
+}
+.tieubieu1
+{
+    text-align: left;
+}
+.link1 a{
+    color: black;
+}
+.list-comment{
+    text-align: right;
+}
+.comment{
+    width: 100%;
+}
+.hr-comment{
+    width: 100%;
+}
+.a-fb{
+    font-size: 15px;
+}
+.chudemoi{
+    max-width: 272px;
+}
+.h1-tintuc
+{
+    color: darkred;
+}
+.tintuc{
+    width: 100%;
+}
+.tintuc2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.p-cuoi{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.link-cuoi{
+    background-color: #ebebeb;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+@media screen and (max-width: 375px){
+    .h1-1 {
+        text-transform: uppercase;
+        font-family: "Times New Roman";
+        font-size: 18px;
+        margin-left: -27%;
+        color: #ff253a;
+    }
+    .chudemoi{
+        margin-left: 8%;
+    }
+}
+@media (max-width: 768px){
+    .chudemoi{
+        margin-left: 31% !important;
+    }
+    .image2{
+        margin-left: 31% !important;
+    }
+    .h1-luxury{
+        margin-bottom: 50%!important;
+    }
+    .p1-luxury{
+        display: none;
+    }
+    .h1-trangan1{
+        margin-top: -56%!important;
+    }
+}

@@ -1,0 +1,394 @@
+.anhbia{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.anhbiadau
+{
+    width: 100%;
+    z-index: 1;
+}
+.black-ground{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    opacity: 0.8;
+}
+.header-banner{
+    position: relative;
+}
+.menu{
+    overflow: hidden;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.menu ul{
+    background: #ffb628;
+    list-style-type: none;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 40px;
+    margin-left: -5px;
+    font-size: 30px;
+    font-family: Myriad Pro;
+    background-image: url(../image/border2.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 0.7%;
+    margin-top: 7px;
+}
+.div_left a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.div_left a:hover{
+    color: #ff253a;
+    transition: 1s;
+}
+.btn-search{
+    font-family: 'Arial';
+    text-align: center;
+    background: #ffb628;
+    color: black;
+    height: 34px;
+    width: 99%;
+    margin: 1px;
+    padding-top: 5px;
+}
+/*.traslate-color*/
+/*{*/
+/*    background-image: url(../image/border.jpg);*/
+/*}*/
+.traslate-color:after
+{
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    content: "";
+    background-image: url(../image/border.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: width 0.5s;
+}
+.traslate-color:hover{
+    color: red;
+}
+.traslate-color:hover:after{
+    width: 100%;
+}
+#toggle{
+    display: none;
+    background-color: #999999;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#toggle-mien{
+    display: none;
+    cursor: pointer;
+    margin-left: 132%;
+}
+.text-trangan a{
+    text-decoration: none;
+}
+@media screen and (max-width: 375px) {
+    #main-menu{
+        flex-direction: column;
+    }
+    #toggle{
+        display: block;
+    }
+    #toggle-mien{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .anhbia{
+        width: 30%;
+        height: 30%;
+    }
+    .mien-size{
+        width: 69%;
+    }
+    .menu li{
+        background-image: none;
+    }
+    .form-search{
+        margin-left: 7%;
+    }
+    .image2,.image1{
+        margin-left: 10%;
+    }
+    .h1-tintuc{
+        font-size: 33px;
+        margin-right: 26%;
+    }
+    .tieubieu h1{
+        margin-right: 25%;
+        font-size: 42px;
+    }
+    .img-tieubieu1{
+        margin-left: 0;
+        margin-top: -45px;
+    }
+    .img-tieubieu img{
+        width: 100%;
+    }
+    .font-p{
+        font-size: 139%;
+    }
+    .tintuc2{
+        display: block !important;
+    }
+    .spalamanh, .tintuc1{
+        padding-bottom: 5%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .mien-size{
+        padding-left: 20%;
+    }
+    .text-brand{
+        width: 169%;
+    }
+    #main-menu{
+        flex-direction: column;
+    }
+    #toggle{
+        display: block;
+    }
+    #toggle-mien{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .anhbia{
+        width: 30%;
+        height: 30%;
+    }
+    .mien-size{
+        width: 69%;
+    }
+    .menu li{
+        background-image: none;
+    }
+    .form-search{
+        margin-left: 31%;
+    }
+    .image2,.image1{
+        margin-left: 10%;
+    }
+    .h1-tintuc{
+        font-size: 33px;
+        margin-right: 7%;
+    }
+    .tieubieu h1{
+        margin-right: 7%;
+        font-size: 42px;
+    }
+    .img-tieubieu1{
+        margin-left: 0;
+        margin-top: -45px;
+    }
+    .img-tieubieu img{
+        width: 100%;
+    }
+    .font-p{
+        font-size: 96%;
+    }
+    .tintuc2{
+        display: block !important;
+    }
+    .spalamanh, .tintuc1{
+        padding-bottom: 5%;
+        display: contents;
+    }
+    .star{
+        padding-top: 3%;
+    }
+
+}
+.search{
+    background-color: black;
+}
+.timkiem{
+    max-width: 272px;
+}
+.image1,.image2{
+    max-width: 269px;
+    max-height: 365px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+hr{
+    border: 1px solid black;width: 88%;
+}
+h1{
+    font-family: 'UVN Kieu';font-size: 55px;
+    padding-left:80px;
+}
+.mien ul {
+
+    list-style-type: none;
+    text-align: center;
+}
+.mien li{
+    float: left;
+    margin-right: 9%;
+}
+.mien li:hover{
+    background-color: silver;
+    border: 1px double #000000;
+    transition: 0.4s;
+    padding: 5px;
+}
+.mien a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.mien a:hover{
+    color: white;
+    transition: 0.4s;
+}
+.mien{
+    width: 151%;
+    padding-top: 3%;
+    padding-left: 56%;
+}
+.tieubieu
+{
+    background-image: url("../image/anhgiua.jpg");
+    text-align: center;
+    color: #f9c636;
+}
+.font-p1{
+    font-style: italic;
+    color: white;
+}
+.font-p a{
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.font-p a:hover{
+    transition: 1s;
+    color: #ff253a;
+}
+.table1
+{
+    width: 100%;
+
+    border-spacing: 10px 30px;
+
+}
+.table1 img{
+    width: 70%;
+    height: 70%;
+}
+.td1{
+    text-align: left;
+}
+.timkiem{
+    background-color: black;
+    color: white;
+}
+.tintuc
+{
+    background-image: url("../image/anhcuoi.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.tintuc1{
+    max-width: 370px;
+}
+.tintuc h1{
+    text-align: center;
+}
+.btn-all{
+    left: 50%;
+    top: 50%;
+}
+.spalamanh{
+    max-width: 370px;
+    align-items: center;
+}
+.tieubieu1
+{
+    text-align: left;
+}
+.link1 a{
+    color: black;
+}
+.btn-all{
+    width: 40%;
+    margin-bottom: 25px;
+}
+.img-tieubieu{
+    text-align: right;
+}
+.tieubieu2{
+    padding-top: 25px;
+}
+.tieubieu3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tintuc2{
+    display:flex;justify-content: center;width: 100%;
+}
+.link2 ul{
+    list-style-type: none;
+}
+.link4{
+    background-color: #ebebeb;
+    width: 100%;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.hr-uytin{
+    width: 90%;
+    margin-top: -1%;
+}
+.h1-tintuc{
+    color: #7b0200;
+}
+.p-cuoi{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.img-tintuc{
+    margin-left: 4%;
+    margin-top: -32px;
+}
+.img-tieubieu1{
+    margin-left: 4%;
+    margin-top: -45px;
+}
